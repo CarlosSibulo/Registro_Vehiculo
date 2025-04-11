@@ -5,7 +5,7 @@ public class usuario_registro extends javax.swing.JFrame {
     
 
    
-    public usuario_registro() {
+    public registro_usuario() {
         initComponents();
     }
     
@@ -198,7 +198,7 @@ public class usuario_registro extends javax.swing.JFrame {
     }                                        
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {                                      
-        System.out.println("se hizo en el bonton ");
+        System.out.println("se hizo click en el bonton ");
         String aux_Nombre = Campo_Nombre.getText();
         String aux_Correo = Campo_Correo.getText();
         String aux_Contraseña = Campo_Contraseña.getText();
